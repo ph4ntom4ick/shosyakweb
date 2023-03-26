@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>car reservation - Order Product</title>
+	<link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+	<header>
+		<h1>Reservations</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="your_reservations.html">Reservations</a></li>
+				<li><a href="../index.html">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li class = "auth-buttons"">
+					<a href="login.html">Login</a>
+					<a href="register.html">Register</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class = "item">
+			<section class = "items">
+			<article class="item" id = "item-to-order">
+				<h2>Car 3</h2>
+				<p>Description of car 3.</p>
+				<p>$20.99,hour</p>
+				<p>owner`s number</p>
+				<p>(609) 646-6397</p>
+			</article>
+			</section>
+			<form>
+				<label for="quantity">Product quantity:</label>
+				<input type="text" id="order-quantity" name="OrderQuantity" required>
+				<button type="submit", class="btn"">Order product</button>
+				<button class="btn" onclick="location.href='home.html'"">Cancel</button>
+			</form>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 car reservation</p>
+	</footer>
+</body>
+</html>
